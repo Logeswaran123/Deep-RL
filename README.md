@@ -14,5 +14,9 @@ Reinforcement learning is a framework for solving control tasks (also called dec
 * Foundations of Deep RL Series, L1 MDPs, Exact Solution Methods, Max-ent RL by Pieter Abbeel | [Youtube](https://www.youtube.com/watch?v=2GwBez0D20A&ab_channel=PieterAbbeel)
 * Spinning Up RL by OpenAI Part 1: Key concepts of RL | [Link](https://spinningup.openai.com/en/latest/spinningup/rl_intro.html)
 
+## Other resources
+* [Getting Started With OpenAI Gym: The Basic Building Blocks](https://blog.paperspace.com/getting-started-with-openai-gym/)
+* [Make your own Gym custom environment](https://www.gymlibrary.dev/content/environment_creation/)
+
 ## References
 * [Deep Reinforcement Learning Course](https://huggingface.co/deep-rl-course/unit0/introduction?fw=pt#introduction)
