@@ -9,5 +9,10 @@ Reinforcement learning is a framework for solving control tasks (also called dec
 |:----:|:-----------:|:----:|:-----:|
 | LunarLander-v2 | A Lunar Lander agent that will learn to land correctly on the Moon |  | https://huggingface.co/Loges/LunarLanderv2 |
 
+## Learning materials
+* Reinforcement Learning: An Introduction, Richard Sutton and Andrew G. Barto Chapter 1, 2 and 3 | [PDF book](http://incompleteideas.net/book/RLbook2020.pdf)
+* Foundations of Deep RL Series, L1 MDPs, Exact Solution Methods, Max-ent RL by Pieter Abbeel | [Youtube](https://www.youtube.com/watch?v=2GwBez0D20A&ab_channel=PieterAbbeel)
+* Spinning Up RL by OpenAI Part 1: Key concepts of RL | [Link](https://spinningup.openai.com/en/latest/spinningup/rl_intro.html)
+
 ## References
 * [Deep Reinforcement Learning Course](https://huggingface.co/deep-rl-course/unit0/introduction?fw=pt#introduction)
