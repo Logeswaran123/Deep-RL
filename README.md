@@ -36,6 +36,9 @@ However, the problem is that it implies that to calculate EACH value of a state 
 
 This can be a computationally expensive process, and that’s where the <b>Bellman equation</b> comes to help us.
 
+### Bellman equation
+Instead of calculating each value as the sum of the expected return, which is a long process, we calculate the value as the sum of immediate reward + the discounted value of the state that follows.
+
 ## Deep RL agents
 | Name | Description | Code | Model |
 |:----:|:-----------:|:----:|:-----:|
