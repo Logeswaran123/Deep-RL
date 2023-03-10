@@ -13,8 +13,8 @@ Goal is to find an optimal policy π* , aka., a policy that leads to the best ex
 
 To find this optimal policy (hence solving the RL problem), there are two main types of RL methods:
 
-<b>Policy-based methods:</b> Train the policy directly to learn which action to take given a state.<br />
-<b>Value-based methods:</b> Train a value function to learn which state is more valuable and use this value function to take the action that leads to it.
+* <b>Policy-based methods:</b> Train the policy directly to learn which action to take given a state.<br />
+* <b>Value-based methods:</b> Train a value function to learn which state is more valuable and use this value function to take the action that leads to it.
 
 ## Value based method
 In value-based methods, we learn a value function that maps a state to the expected value of being at that state.
