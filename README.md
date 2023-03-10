@@ -51,4 +51,4 @@ This can be a computationally expensive process, and that’s where the <b>Bellm
 * [Make your own Gym custom environment](https://www.gymlibrary.dev/content/environment_creation/)
 
 ## References
-* [Deep Reinforcement Learning Course](https://huggingface.co/deep-rl-course/unit0/introduction?fw=pt#introduction)
+* [Deep Reinforcement Learning Course](https://huggingface.co/deep-rl-course/unit0/introduction?fw=pt#introduction) - Big thanks to the creators of the course. Most of the explanations are taken from this course.
