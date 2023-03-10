@@ -19,9 +19,22 @@ To find this optimal policy (hence solving the RL problem), there are two main t
 ## Value based method
 In value-based methods, we learn a value function that maps a state to the expected value of being at that state.
 
-Given a state, our action-value function (that we train) outputs the value of each action at that state. Then, our pre-defined Greedy Policy selects the action that will yield the highest value given a state or a state action pair.
-
 In the case of value-based methods, you don’t train the policy: your policy is just a simple pre-specified function (for instance, Greedy Policy) that uses the values given by the value-function to select its actions.
+
+In value-based methods, you’ll use an <b>Epsilon-Greedy Policy</b> that handles the exploration/exploitation trade-off.
+
+Types:<br />
+* <b>State-value function</b><br />
+For each state, the state-value function outputs the expected return if the agent starts at that state and then follows the policy forever afterward.
+
+* <b>Action-value function</b><br />
+In the action-value function, for each state and action pair, the action-value function outputs the expected return if the agent starts in that state and takes action, and then follows the policy forever after.
+
+In either case, whatever value function we choose (state-value or action-value function), the returned value is the expected return.
+
+However, the problem is that it implies that to calculate EACH value of a state or a state-action pair, we need to sum all the rewards an agent can get if it starts at that state.
+
+This can be a computationally expensive process, and that’s where the <b>Bellman equation</b> comes to help us.
 
 ## Deep RL agents
 | Name | Description | Code | Model |
