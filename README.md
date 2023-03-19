@@ -51,7 +51,7 @@ Temporal difference (TD) learning refers to a class of model-free reinforcement 
 While Monte Carlo methods only adjust their estimates once the final outcome is known, TD methods adjust predictions to match later, more accurate, predictions about the future before the final outcome is known. This is a form of bootstrapping.
 
 ### Q-Learning
-Q-Learning is an off-policy value-based method that uses a TD approach to train its action-value function. Q-Learning is the algorithm we use to train our Q-function, an action-value function that determines the value of being at a particular state and taking a specific action at that state. Internally, the  Q-function has a Q-table, a table where each cell corresponds to a state-action pair value. Think of this Q-table as the memory or cheat sheet of the Q-function.
+Q-Learning is an off-policy value-based method that uses a TD approach to train its action-value function. Q-Learning is the algorithm we use to train our Q-function, an action-value function that determines the value of being at a particular state and taking a specific action at that state. Internally, the  Q-function has a Q-table, a table where each cell corresponds to a state-action pair value. Think of this Q-table as the memory or cheat sheet of the Q-function. Given a state and action, our Q-function will search into its Q-table the corresponding value. When the training is done, we have an optimal Q-function, which means we have optimal Q-table. And if we have an optimal Q-function, we have an optimal policy since we know for each state what is the best action to take.
 
 ## Deep RL agents
 | Name | Description | Code | Model |
