@@ -39,6 +39,17 @@ This can be a computationally expensive process, and that’s where the <b>Bellm
 ### Bellman equation
 Instead of calculating each value as the sum of the expected return, which is a long process, we calculate the value as the sum of immediate reward + the discounted value of the state that follows.
 
+### Monte Carlo: learning at the end of the episode
+Monte Carlo waits until the end of the episode, calculates return and uses it as a target for updating value of state t.
+
+So it requires a complete episode of interaction before updating our value function.
+
+### Temporal Difference Learning: learning at each step
+[![Temporal difference learning](https://img.shields.io/badge/Temporal%20difference%20learning-Blog-white.svg)](https://en.wikipedia.org/wiki/Temporal_difference_learning)<br />
+Temporal difference (TD) learning refers to a class of model-free reinforcement learning methods which learn by bootstrapping from the current estimate of the value function. These methods sample from the environment, like Monte Carlo methods, and perform updates based on current estimates, like dynamic programming methods.
+
+While Monte Carlo methods only adjust their estimates once the final outcome is known, TD methods adjust predictions to match later, more accurate, predictions about the future before the final outcome is known. This is a form of bootstrapping.
+
 ## Deep RL agents
 | Name | Description | Code | Model |
 |:----:|:-----------:|:----:|:-----:|
